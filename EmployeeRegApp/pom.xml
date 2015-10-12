@@ -21,11 +21,10 @@
 			<version>3.0.1</version>
 		</dependency>
 		<dependency>
-      		<groupId>junit</groupId>
-      		<artifactId>junit</artifactId>
-      		<version>4.11</version>
-      		<scope>test</scope>
-    	</dependency>
+  			<groupId>org.apache.maven.surefire</groupId>
+  			<artifactId>surefire-junit47</artifactId>
+  			<version>2.12</version>
+ 		</dependency>
 	</dependencies>
 	<build>
 		<finalName>EmployeeRegApp</finalName>
@@ -61,6 +60,24 @@
 				</archive>
 			  </configuration> 
 			</plugin>-->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.11</version>
+					<dependencies>
+					 <dependency>
+					  <groupId>org.apache.maven.surefire</groupId>
+					  <artifactId>surefire-junit47</artifactId>
+					  <version>2.12</version>
+					 </dependency>
+					</dependencies>
+					<configuration>
+					 <includes>
+					  <include>**/*.class</include>
+					 </includes>
+					 <excludedGroups>com.test.IntegrationTest</excludedGroups>
+					</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
