@@ -1,3 +1,4 @@
+test\java\com\employee\EmployeeAppUnit.class
+test\java\com\employee\RunBDDTest.class
 main\java\com\employee\Register.class
-test\java\EmployeeAppTest.class
-test\java\EmployeeAppUnit.class
+test\java\com\employee\EmployeeAppTest.class
