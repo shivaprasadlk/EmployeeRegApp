@@ -77,7 +77,7 @@ public class Register extends HttpServlet {
 				out.println("<tr><th width='50'>Name</th><th width='50'>Password</th><th width='50'>Email</th><th width='50'>Country</th></tr>");
 				//out.println("<tr><td>"+userName+"</td><td>"+pass+"</td><td>"+email+"</td><td>"+country+"</td></tr>");
 				out.println("</table>");
-				out.println("</body></html>"); */
+				out.println("</body></html>");// */
 				
 
 			String query = "SELECT * FROM REGISTERUSER";
