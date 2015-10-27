@@ -70,7 +70,7 @@ public class Register extends HttpServlet {
 			
 			if(i>0)  
 				out.print("Hi "+n+" ,You are successfully registered...!");
-				/* //out.print(\n);test
+				/* //out.print(\n);test1
 				out.println("<html><head>");
 				out.println("<title>Employees Registered details</title></head><body>");
 				out.println("<table width='359' border='1'>");
