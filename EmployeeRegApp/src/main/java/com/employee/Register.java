@@ -38,7 +38,7 @@ public class Register extends HttpServlet {
 		String p=request.getParameter("userPass");  
 		String e=request.getParameter("userEmail");  
 		String c=request.getParameter("userCountry");  
-			//test
+			//test class
 		try{  
 			Class.forName("com.mysql.jdbc.Driver");
 			//String hostname = "localhost";
