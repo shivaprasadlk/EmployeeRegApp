@@ -30,7 +30,7 @@ public class Register extends HttpServlet {
 	 */
     public void doPost(HttpServletRequest request, HttpServletResponse response)  
 			throws ServletException, IOException {  
-
+    	//test
 		response.setContentType("text/html");  
 		PrintWriter out = response.getWriter();  
 
